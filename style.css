@@ -49,3 +49,7 @@ p {
   justify-content: center;
   font-size: 60px;
 }
+.weather-app-icon {
+  width: 70px;
+  height: 70px;
+}
