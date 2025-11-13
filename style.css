@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
-#placeholder {
+#search-form-input {
   margin: 5px;
   background: #f9f7fe;
   border-radius: 6px;
@@ -23,7 +23,7 @@ body {
   width: 55%;
   border: none;
 }
-#search {
+#search-form-button {
   border-radius: 6px;
   max-width: 150px;
   font-size: 15px;
@@ -42,14 +42,6 @@ hr {
 }
 strong {
   color: #fff;
-}
-ul {
-  margin: 30px 0px;
-  list-style: none;
-  display: flex;
-  position: relative;
-  justify-content: space-evenly;
-  padding: 10px;
 }
 p {
   display: flex;
