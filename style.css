@@ -55,7 +55,7 @@ p {
 }
 .weather-forecast {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 30px;
 }
 .weather-forecast-date {
