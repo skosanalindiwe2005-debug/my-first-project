@@ -1,12 +1,12 @@
 body {
-  background: #f9f7fe;
+  background: linear-gradient(
+    109.6deg,
+    rgb(61, 237, 253) 44.2%,
+    rgb(3, 136, 238) 95.6%
+  );
 }
 #body {
-  background: linear-gradient(
-    2.1deg,
-    rgb(116, 253, 210) 5%,
-    rgb(0, 191, 247) 95.8%
-  );
+  background: white;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   max-width: 500px;
@@ -14,9 +14,27 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+button {
+  background: white;
+  color: darkblue;
+  padding: 13px 18px;
+  border: none;
+  border-radius: 30px;
+  display: block;
+  margin: 10px auto;
+  transition: all 150ms ease-in-out;
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 #search-form-input {
   margin: 5px;
-  background: #f9f7fe;
+  background: linear-gradient(
+    109.6deg,
+    rgb(61, 237, 253) 44.2%,
+    rgb(3, 136, 238) 95.6%
+  );
   border-radius: 6px;
   font-size: 15px;
   padding: 15px 20px;
@@ -29,7 +47,11 @@ body {
   font-size: 15px;
   padding: 15px 20px;
   color: white;
-  background: lightseagreen;
+  background: linear-gradient(
+    109.6deg,
+    rgb(61, 237, 253) 44.2%,
+    rgb(3, 136, 238) 95.6%
+  );
   border: none;
 }
 h1 {
@@ -41,7 +63,7 @@ hr {
   margin: 25px 0;
 }
 strong {
-  color: #fff;
+  color: blue;
 }
 p {
   display: flex;
@@ -60,7 +82,7 @@ p {
 }
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: blue;
   font-size: 16px;
 }
 .weather-forecast-icon {
@@ -71,7 +93,7 @@ p {
 }
 .weather-forecast-temperatures {
   text-align: center;
-  color: white;
+  color: black;
   display: flex;
   justify-content: center;
 }
@@ -80,4 +102,31 @@ p {
 }
 footer {
   text-align: center;
+}
+.dark {
+  background: black;
+}
+.dark button {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+.dark #body {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+.dark a {
+  color: black;
+}
+.dark .weather-forecast-temperatures {
+  color: white;
+}
+.dark #search-form-input {
+  background: black;
+}
+.dark #search-form-button {
+  background: black;
+  color: white;
+}
+.dark {
+  color: white;
 }
